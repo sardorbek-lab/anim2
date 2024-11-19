@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    width: 100%;
+}
+.banner .cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.banner .cards .card1{
+    width: 400px;
+    height: 200px;
+    background-color: dodgerblue;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.banner .cards .card1 p{
+    color: #fff;
+    font-size: 21px;
+}
+.banner .cards .card1 .icon{
+    color: #fff;
+    position: relative;
+    top: -70px;
+    font-size: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.banner .cards .card2{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(255, 30, 113);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.banner .cards .card2 p{
+    color: #fff;
+    font-size: 21px;
+}
+.banner .cards .card3{
+    width: 400px;
+    height: 200px;
+    background-color: purple;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.banner .cards .card3 p{
+    color: #fff;
+    font-size: 21px;
+}
+
+
+/* cards2 */
+
+
+
+
+.banner .cards2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    position: relative;
+    top: 100px;
+}
+.banner .cards2 .card1{
+    width: 400px;
+    height: 200px;
+    background-color:dodgerblue;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.banner .cards2 .card2{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(124, 37, 124);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.banner .cards2 .card1 p{
+    color: #fff;
+    font-size: 21px;
+}
+.banner .cards2 .card2 p{
+    color: #fff;
+    font-size: 21px;
+}
+.banner .cards2 .card3{
+    width: 400px;
+    height: 200px;
+    background-color:dodgerblue;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.banner .cards2 .card3 p{
+    color: #fff;
+    font-size: 21px;
+}
+@media (max-width:600px) {
+    .banner .cards{
+        flex-direction: column;
+
+    }
+    .banner .cards2{
+        flex-direction: column;
+    }
+}
+@media (max-width:900px){
+    .banner .card1{
+        
+    }
+}
